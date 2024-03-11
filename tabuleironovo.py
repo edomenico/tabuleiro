@@ -750,7 +750,7 @@ def main():
             _, _data_url = data_url.split(";base64,")
             return Image.open(io.BytesIO(base64.b64decode(_data_url)))
 
-    def tabuleiro(est,areatrab,dados1,dados2,pt1,pt2,datainicio):
+    def tabuleiro(est,areatrab,datainicio):
         
         def formata():
             from bokeh.models import FuncTickFormatter, FixedTicker
@@ -2342,7 +2342,7 @@ def main():
            
             """
         )
-    p=tabuleiro(nomedaestacao,noarea,atudados_area1,atudados_area2,pt1,pt2,datainicial)
+    p=tabuleiro(nomedaestacao,noarea,datainicial)
     
     import streamlit.components.v1 as components
 
