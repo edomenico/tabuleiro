@@ -2241,7 +2241,7 @@ def main():
     pt1 = pd.read_csv('/mount/src/tabuleiro/metar_trat_teste1.csv',
                                     sep=',',
                                     decimal='.')
-    pt2 = pd.read_csv('/mount/src/edomenico/metar_trat_teste2.csv',
+    pt2 = pd.read_csv('/mount/src/tabuleiro/metar_trat_teste2.csv',
                                     sep=',',
                                     decimal='.')
     
