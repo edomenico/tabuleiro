@@ -557,12 +557,12 @@ def main():
             #arqiago['data_hora'] = x
             if areatrab==1:
                 
-                arqiant = pd.read_csv('/mount/src/edomenico/metar_trat_teste1.csv',
+                arqiant = pd.read_csv('/mount/src/tabuleiro/metar_trat_teste1.csv',
                                     sep=',',
                                     decimal='.')
             else:
                 
-                arqiant = pd.read_csv('/mount/src/edomenico/metar_trat_teste2.csv',
+                arqiant = pd.read_csv('/mount/src/tabuleiro/metar_trat_teste2.csv',
                                       sep=',',
                                       decimal='.')
     
@@ -2238,7 +2238,7 @@ def main():
     #     ['SBJR', 'SBES', 'SBME', 'SBCP', 'SBFS', 'SBRJ', 'SBCB', 'SBVT', 'SBPS', 'SBGL', 'SBNT', 'SBMS', 'SBAC', 'SBJE',
     #      'SBPB', 'SBAR', 'SBMO', 'SBRF', 'SBJP', 'SBSG', 'SBFZ', 'SBSL', 'SBTE', 'SBJU', 'SBKG', 'SBFN', 'SBPL',
     #      'SBPJ'])
-    pt1 = pd.read_csv('/mount/src/edomenico/metar_trat_teste1.csv',
+    pt1 = pd.read_csv('/mount/src/tabuleiro/metar_trat_teste1.csv',
                                     sep=',',
                                     decimal='.')
     pt2 = pd.read_csv('/mount/src/edomenico/metar_trat_teste2.csv',
